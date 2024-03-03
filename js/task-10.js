@@ -9,6 +9,7 @@ destroyButton.addEventListener("click", () => {
 
 function destroyBoxes() {
   boxes.innerHTML = "";
+  document.querySelector("#controls input").value = "";
 }
 
 createButton.addEventListener("click", () => {
